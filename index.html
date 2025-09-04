@@ -132,12 +132,20 @@
             background-color: #cac7c7;
         }
 
-        .image-box {
-            width: 50%;
-            height: 100%;
-            float: right;
-            background: url('loginimage.jpeg') no-repeat center center/cover;
-        }
+       .image-box {
+    width: 50%;
+    height: 540px;
+    float: right;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* makes sure the image covers fully */
+    display: block;
+}
+
+        
     </style>
 </head>
 
